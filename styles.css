@@ -1,0 +1,103 @@
+body {
+  background-color: #232323;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  line-height: 1.7;
+  color: white;
+  margin: 0;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 10px;
+  padding: 1%;
+  margin: 0;
+  background-color: steelblue;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+
+.score-next {
+  background-color: white;
+  color: steelblue;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.score-next h3 {
+  margin: 0;
+}
+
+.status {
+  color: black;
+}
+
+.button {
+  height: 100%;
+  padding: 0 20px;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  background-color: steelblue;
+  color: white;
+}
+
+#squares {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#squares div {
+  border-radius: 5%;
+  font-size: 23px;
+  width: 30%;
+  padding: 7% 5%;
+  margin: 20px;
+  transition: all 0.5s;
+}
+
+.thankYou {
+  font-size: 70px;
+  margin: 10% 0;
+  transition: all 0.5s;
+}
+
+/* FOR TEXT TO FIT IN PHONE */
+
+@media (max-width: 600px) {
+  #squares {
+    width: 100%;
+  }
+}
+
+/* BOX COLORS FOR CLASS LIST*/
+
+.correct {
+  background-color: #20d477;
+  color: white;
+}
+
+.wrong {
+  background-color: #f54115;
+  color: white;
+}
+
+.base {
+  background-color: steelblue;
+}
+
+.base:hover {
+  background-color: white;
+  color: steelblue;
+}
